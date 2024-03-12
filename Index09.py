@@ -6,4 +6,10 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    if type(s)==int:
+        return s
+    else:
+        
+        return -1
+print(main(6))
+print(main("d"))
